@@ -1,0 +1,31 @@
+{
+  "name": "sela-labs",
+  "version": "1.0.0",
+  "description": "exploring cryptocurrency",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "bitcoinjs-lib": "^4.0.2",
+    "bitcore-lib": "^0.15.0",
+    "blocktrail-sdk": "^3.7.16",
+    "body-parser": "*",
+    "cors": "*",
+    "ejs": "^2.6.1",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*",
+    "request": "^2.88.0"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "blockchain"
+  ],
+  "author": "Scofield",
+  "license": "ISC"
+}
